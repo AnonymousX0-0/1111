@@ -4,7 +4,6 @@ import random
 import socket
 import threading
 import time
-print("150 SELL")
 ip = str(input(" IP:"))
 port = int(input(" PORT:"))      # The port used by the server
 threads = int(input("PING:"))
